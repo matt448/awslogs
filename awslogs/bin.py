@@ -50,6 +50,7 @@ def main(argv=None):
                             help="aws profile")
 
         parser.add_argument("--aws-region",
+                            "--region",
                             dest="aws_region",
                             type=str,
                             default=os.environ.get('AWS_REGION', None),
